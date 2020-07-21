@@ -10,7 +10,7 @@ end
 
 def countdown_with_sleep(time)
   while time < 10
-  sleep 1.seconds until time = 0 
+  sleep 1.seconds 
   puts "#{time} SECOND(S)!"
   time -= 1
   
